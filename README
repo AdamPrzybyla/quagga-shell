@@ -1,0 +1,10 @@
+Quagga commands in GNU Bourne-Again SHell.
+
+Example:
+[root@test ~]# show ip o n |grep Full|obfuscate 
+xx.xx.xx.xx    1 Full/Backup       30.185s xx.xx.xx.xx  eth0.15:xx.xx.xx.xx     0     0     0
+xx.xx.xx.xx    1 Full/DR           30.103s xx.xx.xx.xx  eth0.15:xx.xx.xx.xx     0     0     0
+xx.xx.xx.xx    1 Full/Backup       38.212s xx.xx.xx.xx  eth2.30:xx.xx.xx.xx     0     0     0
+xx.xx.xx.xx    1 Full/DR           35.283s xx.xx.xx.xx  eth2.30:xx.xx.xx.xx     0     0     0
+xx.xx.xx.xx    1 Full/Backup       39.351s xx.xx.xx.xx  eth3:xx.xx.xx.xx      0     0     0
+[root@test ~]#
